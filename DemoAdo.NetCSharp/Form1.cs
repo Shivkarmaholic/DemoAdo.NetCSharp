@@ -33,7 +33,7 @@ namespace DemoAdo.NetCSharp
             catch (Exception ex)
             { MessageBox.Show(ex.Message); }
             finally
-            {
+            { 
                 conn.Close();
             }
 
