@@ -80,6 +80,7 @@
             this.btn_Save.TabIndex = 3;
             this.btn_Save.Text = "Save";
             this.btn_Save.UseVisualStyleBackColor = true;
+            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // btn_Update
             // 
@@ -89,6 +90,7 @@
             this.btn_Update.TabIndex = 4;
             this.btn_Update.Text = "Update";
             this.btn_Update.UseVisualStyleBackColor = true;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // btn_Delete
             // 
@@ -98,6 +100,7 @@
             this.btn_Delete.TabIndex = 5;
             this.btn_Delete.Text = "Delete";
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // txt_EmpId
             // 
@@ -128,6 +131,7 @@
             this.btn_SearchById.TabIndex = 9;
             this.btn_SearchById.Text = "SearchById";
             this.btn_SearchById.UseVisualStyleBackColor = true;
+            this.btn_SearchById.Click += new System.EventHandler(this.btn_SearchById_Click);
             // 
             // dgv_ShowDataGrid
             // 
@@ -146,6 +150,7 @@
             this.btn_ShowAllEmp.TabIndex = 11;
             this.btn_ShowAllEmp.Text = "ShowAllEmployee";
             this.btn_ShowAllEmp.UseVisualStyleBackColor = true;
+            this.btn_ShowAllEmp.Click += new System.EventHandler(this.btn_ShowAllEmp_Click);
             // 
             // btn_Clear
             // 
@@ -155,6 +160,7 @@
             this.btn_Clear.TabIndex = 12;
             this.btn_Clear.Text = "Clear";
             this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
             // Form1
             // 
